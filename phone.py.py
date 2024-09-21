@@ -7,7 +7,7 @@ def connect_db():
     return pymysql.connect(
         host='localhost',  # Change as per your MySQL server
         user='root',  # Change to your MySQL username
-        password='Rahimmal@2024',  # Change to your MySQL password
+        password='123mysql',  # Change to your MySQL password
         database='phonebook'  # Change to your database name
     )
 
